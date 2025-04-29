@@ -1,0 +1,24 @@
+h2{
+    background: pink;
+    color: blue;
+    font-size: xx-large;
+    font-weight: 200;
+    font-family: sans-serif;
+}
+h1{
+    color: red;
+    background-color: pink;
+    font-size: xx-large;
+    font-weight: 200;
+    font-family: sans-serif;
+    
+}
+button{
+    color: red;
+    background-color: yellow;
+    border-radius: 50px;
+    padding: 12px 20px;
+    margin: 12px;
+    font-size: larger;
+    font-weight: 800;
+}

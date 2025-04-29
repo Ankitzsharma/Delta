@@ -1,0 +1,92 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+h3{
+    color: brown;
+}
+h1{
+    font-weight: 300;
+    color: red;
+}
+#login{
+    background-color: white;
+}/*  ID  */
+#signup{
+    background-color: red;
+    color: white;
+}
+/*  Class  */
+.follow{
+    text-decoration: none;
+    
+}
+/* Class */
+.up{
+    background-color: rgb(240, 9, 9);
+    color: aquamarine;
+    border-radius: 7px;
+}
+h2{
+    color: #1b74e4;
+} 
+/* ID */
+#Search{
+    background-color: black;
+    color: white;
+}   
+/* class */
+.aa{
+    background-color: aqua;
+}
+/* descendent selector */
+p a{
+    color: rgba(11, 123, 209, 0.959);
+    background-color: yellowgreen;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding : 1px 4px;
+}
+nav ul li{
+    color: rgb(239, 76, 103);
+}
+/* adjacent sibling selector */
+p+h3{
+    text-decoration: underline;
+}
+.up+button{
+    background-color: yellow;
+}
+/* attribute selector */
+input[type="text"]{
+    color: blue;
+}
+input[type="password"]{
+    color: red;
+}
+input[type]{
+    background-color: antiquewhite;
+}
+div>p[id="myid"]{
+    color: rgb(181, 5, 37);
+    font-weight: 900;
+}
+/* pseudoclass */
+.up:hover{
+    background-color: black;
+    color: white;
+}
+.ans:hover{
+    background-color: white;
+    color: black;
+}
+h3:hover{
+    text-decoration: overline;
+}
+/* pseudoElement */
+h1::first-letter{
+    color: blue;
+    /* background-color: cadetblue;
+    border-radius: 20Px;
+    border: 1px solid black;
+ */
+}
